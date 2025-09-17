@@ -3,24 +3,24 @@
 #include <string>
 using namespace std;
 int main() {
-    ifstream inputFile("input.txt");
-    ofstream outputFile("output.txt");
+    //ifstream inputFile("input.txt");
+    //ofstream outputFile("output.txt");
 
-    if (!inputFile.is_open()) {
-        cerr << "\nFailed open file input.txt\n";
-        return 1;
-    }
+    //if (!inputFile.is_open()) {
+      //  cerr << "\nFailed open file input.txt\n";
+      //  return 1;
+   // }
 
-    string line;
-    int lineNumber = 1;
+   // string line;
+  //  int lineNumber = 1;
 
-    while (getline(inputFile, line)) {
-        outputFile << lineNumber << ": " << line << endl;
-        lineNumber++;
-    }
+    //while (getline(inputFile, line)) {
+    //    outputFile << lineNumber << ": " << line << endl;
+   //     lineNumber++;
+   // }
 
-    inputFile.close();
-    outputFile.close();
+    //inputFile.close();
+    //outputFile.close();
 
     cout << "Done!\n";
 
